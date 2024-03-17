@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calulator</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+    <div class="spacer"></div>
+      <div id="calc">
+        <h1>Calculator</h1>
+        <form>
+          <input type="text" id="calc-display" disabled="">
+          <br>
+          <input type="button" value="C" class="keys" onclick="toScreen('C')">
+          <input type="button" value="÷" class="keys" onclick="toScreen('/')">
+          <input type="button" value="x" class="keys" onclick="toScreen('*')">
+          <input type="button" value="SQR" class="keys" onclick="sqr()">
+          <br>
+    
+          <input type="button" value="7" class="keys" onclick="toScreen('7')">
+          <input type="button" value="8" class="keys" onclick="toScreen('8')">
+          <input type="button" value="9" class="keys" onclick="toScreen('9')">
+          <input type="button" value="-" class="keys" onclick="toScreen('-')">
+          <br>
+    
+          <input type="button" value="4" class="keys" onclick="toScreen('4')">
+          <input type="button" value="5" class="keys" onclick="toScreen('5')">
+          <input type="button" value="6" class="keys" onclick="toScreen('6')">
+          <input type="button" value="+" class="keys" onclick="toScreen('+')">
+          <br>
+    
+          <input type="button" value="1" class="keys key2" onclick="toScreen('1')">
+          <input type="button" value="2" class="keys key2" onclick="toScreen('2')">
+          <input type="button" value="3" class="keys key2" onclick="toScreen('3')">
+          <input type="button" value="=" id="equals" class="set" onclick="answer()">
+          <br>
+    
+    
+          <input type="button" value="%" class="keys key3" onclick="toScreen('%')">
+          <input type="button" value="0" class="keys key3" onclick="toScreen('0')">
+          <input type="button" value="." class="keys key3" onclick="toScreen('.')">
+         
+        </form>
+      </div>
+      <div class="spacer"></div>
+      <script src="script.js"></script>
+    
+    
+    
+ </body>
+    
+
+</html>
